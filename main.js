@@ -81,19 +81,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     hoverImage4.addEventListener('mouseover', function() {
-        rotatingExclude.classList.add('rotate-medium');
-        rotatingDashes.classList.add('rotate-dashes');
-        rotatingHour.classList.add('rotate-fast');
-        rotatingMinute.classList.add('rotate-slow');
+        rotatingExclude.classList.add('rotate-medium-reverse');
+        rotatingDashes.classList.add('rotate-dashes-reverse');
+        rotatingHour.classList.add('rotate-fast-reverse');
+        rotatingMinute.classList.add('rotate-slow-reverse');
         rotatingArrow.classList.add('rotate-dashes-music');
         rotatingMarkings.classList.add('rotate-dashes-reverse-music');
     });
 
     hoverImage4.addEventListener('mouseout', function() {
-        rotatingExclude.classList.remove('rotate-medium');
-        rotatingDashes.classList.remove('rotate-dashes');
-        rotatingHour.classList.remove('rotate-fast');
-        rotatingMinute.classList.remove('rotate-slow');
+        rotatingExclude.classList.remove('rotate-medium-reverse');
+        rotatingDashes.classList.remove('rotate-dashes-reverse');
+        rotatingHour.classList.remove('rotate-fast-reverse');
+        rotatingMinute.classList.remove('rotate-slow-reverse');
         rotatingArrow.classList.remove('rotate-dashes-music');
         rotatingMarkings.classList.remove('rotate-dashes-reverse-music');
 
@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 });
+
 
 
 

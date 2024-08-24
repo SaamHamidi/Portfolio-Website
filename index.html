@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Vault</title>
+    <title>Vault Door</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
@@ -11,13 +11,19 @@
     <body style="background-color: #2a2a2a;"> 
 
 <div class="body">
+  <div>
   <div class="container">
          <div class="item item-1">
           <div>
-            <link href="./c_saam-hamidi.css" rel="stylesheet" />
-            <div class="c_saam-hamidi-text">
-              <p class="c_saam-hamidi-text1",>Saam Hamidi</p>
-            </div>
+            <link href="./c_TheVault.css" rel="stylesheet" />
+            <img
+                src="./assets/Front Page.svg"
+                width="173"
+                height="79"
+                class="c_TheVault"
+                draggable="false"
+                unselectable="on"
+             />
             <div>
                 <link href="./c_u-pdates.css" rel="stylesheet" />
                 <div class="c_u-pdates-text"><p class="c_u-pdates-text1">UPDATES</p></div>
@@ -35,20 +41,20 @@
               <div>
                 <link href="./c_c-vresumecontactin.css" rel="stylesheet" />
                 <div class="c_c-vresumecontactin-text">
-                  <p class="c_c-vresumecontactin-text1">CV/RESUME/CONTACT INFO</p>
+                  <p class="c_c-vresumecontactin-text1">CONTACT</p>
                 </div>
               </div>
               <div>
                 <link href="./c_hamidi-saam-gmail-co.css" rel="stylesheet" />
                 <div class="c_hamidi-saam-gmail-co-text">
                   <p class="c_hamidi-saam-gmail-co-text1">hamidi.saam@gmail.com</p>
-                  <p class="c_hamidi-saam-gmail-co-text2">+1 858 900 6300</p>
+                  <!-- <p class="c_hamidi-saam-gmail-co-text2">+1 858 900 6300</p> -->
                 </div>
               </div>
               <div>
                 <link href="./c_codes.css" rel="stylesheet" />
                 <img
-                  src="./assets/Codes.svg"
+                  src="./assets/Home.svg"
                   class="c_codes"
                   draggable="false"
                   unselectable="on"
@@ -91,7 +97,7 @@
                <div>
                 <link href="./c_polygon1.css" rel="stylesheet" />
                 <img
-                  src="./assets/Dial.svg"
+                  src="./assets/Dial(no shadow).svg"
                   class="c_dial"
                   draggable="false"
                   unselectable="on"
@@ -101,7 +107,7 @@
                <div>
                 <link href="./c_polygon1.css" rel="stylesheet" />
                 <img
-                  src="./assets/Group 1(1).svg"
+                  src="./assets/Group 1(no shadow).svg"
                   width="1128.1"
                   height="1148.09"
                   class="c_polygon1-vector"
@@ -123,7 +129,7 @@
 
               <link href="./c_rectangle23.css" rel="stylesheet" />
               <img
-                src="./assets/rectangle23.svg"
+                src="./assets/Rectangle 23(noshadow).svg"
                 
                 width="246.44937133789062"
                 height="245.89051818847656"
@@ -134,7 +140,7 @@
         <div class="exclude-container">
               <link href="./c_exclude.css" rel="stylesheet" />
               <img
-                  src="./assets/exclude.svg"
+                  src="./assets/Exclude(noshadow).svg"
                   id="exclude"
                   width="341"
                   height="341"
@@ -146,7 +152,7 @@
               
               <link href="./c_rectangle22.css" rel="stylesheet" />
               <img
-                  src="./assets/rectangle22.svg"
+                  src="./assets/Rectangle 22(noshadow).svg"
                  
                   width="248.65921020507812"
                   height="249.22508239746094"
@@ -245,7 +251,7 @@
 
                 </div>
                 <img
-                src="./assets/ABOUT.svg"
+                src="./assets/ABOUT(noshadow).svg"
                 width="118"
                 height="46"
                 class="c_a-bout-text"
@@ -355,7 +361,7 @@
               <div>
                 <link href="./c_polygon1.css" rel="stylesheet" />
                 <img
-                  src="./assets/Polygon 1.svg"
+                  src="./assets/Polygon 1(no shadow).svg"
                   width="56"
                   height="25.225296020507812"
                   class="c_arrow-vector"
@@ -365,13 +371,32 @@
               </div>
 
 
-
-
-    </div>
+      </div>
 
 </div>
 
+
     <script src="main.js"></script>
+    <script>
+      (function() { 
+          const classes = document.body.classList;
+          let timer = 0;
+          window.addEventListener('resize', function () {
+              if (timer) {
+                  clearTimeout(timer);
+                  timer = null;
+              }
+              else
+                  classes.add('stop-transitions');
+  
+              timer = setTimeout(() => {
+                  classes.remove('stop-transitions');
+                  timer = null;
+              }, 100);
+          });
+      })();
+  </script>
+
 </body>
 </html> 
 
