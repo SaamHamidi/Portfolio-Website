@@ -41,7 +41,6 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   margin-left: -5em;
   margin-bottom:0em;
   gap:50px;
-  border-style:solid
 }
 
 .item {
