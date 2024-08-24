@@ -30,78 +30,62 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
     }
 
 
-
 .container {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 5vh;
-  padding-inline-end: 50px;
-  padding-inline-start:50px;
+  padding-top: 3vh;
+  padding-inline-end: 3.125em;
+  padding-inline-start:3.125em;
   overflow: hidden;
-  margin-left: -80px;
-  margin-bottom:0px;
+  margin-left: -5em;
+  margin-bottom:0em;
+  gap:50px;
+  border-style:solid
 }
 
 .item {
-  width: 500px;
-  margin: 50px;
+  width: 31.25em;
+  margin: 3.125em;
 }
 
 .item-1 {
-  min-height: 400px;
+  min-height: 72em;
 }
 
 .item-2 {
-  min-height: 1075px;
+  min-height: 67.1875em;
   position: relative;
   user-select: none;
+
   
-  
 }
 
-.c_saam-hamidi-text,
-.c_saam-hamidi-text1 {
-  margin-top: 0;
-  text-align: left;
-  margin-bottom: 30px;
-  padding: 0px;
-}
-
-.c_saam-hamidi-text {
-  width: 100%;
-  max-width: 454px;
-  min-height: 79px;
-}
-
-.c_saam-hamidi-text1 {
-  color: #fff;
-  font-size: 24px;
-  font-style: normal;
-  font-family: "Rajdhani",sans-serif;
-  font-weight: 300;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: none;
+.c_TheVault {
+max-width: 200px;
+max-height:100px;
+user-select: none;
+transform: scale(1.25);
+transform-origin: top left;
 }
 
 .c_u-pdates-text,
 .c_u-pdates-text1 {
-  margin-top: 52px;
+  margin-top: 3.25em;
   text-align: left;
   margin-bottom: 0;
-  padding-left: 0px;
+  padding-left: 0em;
 }
 
 .c_u-pdates-text {
   width: 100%;
-  max-width: 236px;
+  max-width: 14.75em;
   min-height: 0px;
 }
 
 .c_u-pdates-text1 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.25em;
   font-style: normal;
   font-family: "Sansation Light",sans-serif;
   font-weight: 300;
@@ -113,7 +97,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 .c_there-isn--much-of-text {
   width: 100%;
   max-width: auto;
-  margin-top: 20px;
+  margin-top: 1.25em;
   min-height: auto;
   text-align: left;
   margin-bottom: 0;
@@ -124,7 +108,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 .c_there-isn--much-of-text2,
 .c_there-isn--much-of-text3 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.25em;
   font-style: normal;
   margin-top: 0;
   text-align: left;
@@ -138,9 +122,9 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 
 .c_c-vresumecontactin-text {
   width: 100%;
-  max-width: 236px;
-  margin-top: 70px;
-  min-height: 64px;
+  max-width: 14.75em;
+  margin-top: 3em;
+  min-height: 4em;
   text-align: left;
   margin-bottom: 0;
   padding-left: 0px;
@@ -148,7 +132,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 
 .c_c-vresumecontactin-text1 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.25em;
   font-style: normal;
   margin-top: 0;
   text-align: left;
@@ -163,7 +147,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 .c_hamidi-saam-gmail-co-text {
   width: 100%;
   max-width: auto;
-  margin-top: 0;
+  margin-top: -2em;
   min-height: auto;
   text-align: left;
   margin-bottom: 0;
@@ -173,7 +157,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 .c_hamidi-saam-gmail-co-text1,
 .c_hamidi-saam-gmail-co-text2 {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25em;
   font-style: normal;
   margin-top: 0;
   text-align: left;
@@ -186,8 +170,19 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 }
 
 .c_codes {
+  max-width: 350px;
   position: relative;
-  top:446px;
+  transform:translate3D(555px,800px, 0) scale(1.5);
+  /* top: -19.75em;
+  left: 15.2em; */
+  transition: all 100ms ease;
+  z-index: 5;
+  
+}
+
+.c_codes:hover { 
+  filter: brightness(1.25) contrast(1.2);
+  transition: all 300ms ease;
 }
 
 
@@ -198,7 +193,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   cursor: default;
   top:0vh;
   left:50%;
-  transform:translateX(-60px);
+  transform:translateX(-3.75em);
   border-style: solid;
   max-width: 50% !important;
   min-width: 50% !important;
@@ -246,7 +241,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 }
 
 .c_arrow-vector {
-  max-width: 3.5em;
+  max-width: 3em;
   position: absolute;
   top: 11.8125em;
   left: 45.75em;
@@ -256,7 +251,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   position: absolute;
   max-width: 6.5625em;
   height: auto;
-  top: 7.625em;
+  top: 7.825em;
   left: 37.625em;
 }
 
@@ -448,6 +443,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 
 .c_photoinfo {
   max-width: 27.3125em;
+  max-height: 33.8125em;
   margin: 0;
   position: absolute;
   left: 0.875em;
@@ -480,7 +476,7 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   max-width: 7.375em;
   height: auto;
   position: absolute;
-  left: 24.3em;
+  left: 24.6em;
   top: 46em;
 }
 
@@ -521,6 +517,7 @@ c_text-instance {
 
 .c_writinginfo {
   max-width: 27.3125em;
+  max-height: 33.8125em;
   margin: 0;
   position: absolute;
   left: 1.875em;
@@ -577,10 +574,11 @@ c_text-instance {
 
 .c_musicinfo {
   max-width: 27.3125em;
+  max-height: 33.8125em;
   margin: 0;
   position: absolute;
   left: 6.25em;
-  bottom: 41.875em;
+  bottom: 41.3em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -643,8 +641,8 @@ c_text-instance {
   min-width: 70.50625em;
   max-height:71.755625em;
   position: absolute;
-  left: -14.875em;
-  top: 3.8125em;
+  left: -14.9em;
+  top: 4em;
 }
 
 
@@ -746,22 +744,36 @@ c_text-instance {
 }
 
 .rotate-dashes-music {
-  transform: rotate(35deg);
+  transform: rotate(30deg);
   transition: transform 4s;
 }
 
 .rotate-dashes-reverse-music {
-  transform: rotate(-35deg);
+  transform: rotate(-30deg);
   transition: transform 4s;
 }
 
+body.stop-transitions * {
+  transition: none !important;
+}
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1280px) {
 
   .item {
-    margin-right: 20px;
+
   }  
+
+  .c_codes {
+    position: relative;
+    transform:scale(1.5);
+    top: -19.75em;
+    left: 15.2em;
+    transition: all 100ms ease;
+    z-index: 5;
+    transform:translate3D(-245px, 1100px, 0px);
+    
+  }
 
 }
 
@@ -771,21 +783,161 @@ c_text-instance {
   flex-wrap: wrap;
   margin: 0px;
   font-size: 12px;
+  padding-inline-start:11vw;
+  margin-left:0px;
 }
 
-@media (max-width: 600px) {
+.item-1 {
+  padding-left: 0px;
+  transform:translateX(-50px);
+  max-height: 0px;
+  min-height: 5em;
+
+}  
+
+.item-2 {
+  width: 500px;
+  order:-1;
+  }
+  
+.c_TheVault {
+transform:translate3D(-45px, -950px, 0px);
+}
+
+.c_codes {
+align-self: center;
+transform:translate3D(-50px, 200px, 0px);
+}
+
+.c_u-pdates-text {
+margin-top: -200px;
+transform:translateX(-45px);
+}
+
+.c_there-isn--much-of-text {
+transform:translateX(-45px);
+}
+
+.c_c-vresumecontactin-text, .c_hamidi-saam-gmail-co-text {
+transform:translate3D(309px, -102px, 0px);
+}
+
+
+
+.c_projects-text1 {
+  letter-spacing: 5px;
+}
+
+}
+
+
+@media (max-width: 760px) {
 
   .container {
-    flex-wrap: wrap;
-    margin: 0px;
-    margin-left: -40px;
-    font-size: 8px;
+    font-size: 10px;
+    margin-left: 0px;
+    padding-top: 5vh;
+    padding-inline-end: 0em;
+    padding-inline-start:0em;
+    overflow: hidden;
+    margin-left: 0em;
+    margin-bottom:0em;
+    gap:0px;
+
   }
 
-.c_ellipse8-vector, .c_ellipse2-vector, .c_ellipse1-vector, .c_exclude-booleanope {
+  .c_projects-text1 {
+    letter-spacing: 3px;
+  }
 
+  .item {
+    margin-right: 0px;
+  }  
+
+  .item-1 {
+    min-height: 4.5em;
+    width: 31.25em;
+    margin: 3.125em;
+    
+  }
+
+  .item-2 {
+  order:-1;
+  width: 31.25em;
+  margin: 3.125em;
+  transform:translateX(-50px);
+  }
+
+  .c_music3-rectangle, .c_music3-rectangle1 {
+left:123px;
+top: 481px;
+  }
+
+.c_music3-instance:hover .c_music3-rectangle1{
+  transform-origin: bottom left;
 }
 
+.c_music3-instance:hover .c_music3-rectangle{
+  transform-origin: bottom left;
+}
+
+.c_TheVault {
+  transform:translate3D(28px, -792.3px, 0px);
+  }
+  
+.c_codes {
+align-self: center;
+transform:translate3D(-16px, 150px, 0px);
+}
+
+.c_u-pdates-text {
+margin-top: -166.8px;
+transform:translateX(28px);
+}
+
+.c_there-isn--much-of-text {
+transform:translateX(28px);
+}
+
+.c_c-vresumecontactin-text, .c_hamidi-saam-gmail-co-text {
+transform:translate3D(257px, -85px, 0px);
+  }
+
+
+
+  .c_taikoinfo, .c_writinginfo, .c_photoinfo, .c_musicinfo {
+    display: none;
+    }
+
+    @keyframes rotating {
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+.c_exclude-booleanope {
+  animation: 15s infinite linear rotating;
+}
+
+.c_rectangle22-rectangle {
+  animation: 9s infinite linear rotating;
+}
+
+.c_rectangle23-rectangle{
+
+  animation: 3s infinite linear rotating;
+}
+
+.c_polygon1-vector {
+  animation: 200s infinite linear reverse rotating;
+}
+
+.c_markings-vector {
+  animation: 150s infinite linear rotating;
+}
 
 }
 
