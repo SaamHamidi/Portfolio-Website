@@ -45,19 +45,21 @@ body {
 .item {
     /* border: 1px solid rgb(32, 49, 155); */
     position: sticky;
+    padding-bottom:20px;
 }
 
 .c_TheVault {
     max-width: 200px;
     max-height: 100px;
     user-select: none;
-    padding-left: 40px;
-    transform: scale(1.25);
+    padding-left: 32px;
+    transform: scale(1.5);
     transform-origin: top left;
     margin-bottom: -25px;
     /* border: 1px solid rgb(0, 255, 170); */
     border-radius: 50px;   
     position: fixed;
+    clip-path: inset(0px 0px 30px 10px); Adjust values to crop
 }
 
 .menu {
@@ -273,7 +275,11 @@ body {
         
     }
 
-
+    .item {
+        /* border: 1px solid rgb(32, 49, 155); */
+        padding-bottom:0px;
+    }
+    
     .c_TheVault {
         display: none;
     }
