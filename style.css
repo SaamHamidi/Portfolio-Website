@@ -1,32 +1,32 @@
 @font-face {
     font-family: 'Post No Bills Jaffna Light'; /*a name to be used later*/
-    src: url('./fonts/PostNoBillsJaffna-Light.ttf'); /*URL to font*/
+    src: url('./Fonts/PostNoBillsJaffna-Light.ttf'); /*URL to font*/
 
 }
 
 @font-face {
 font-family: 'jsMath'; /*a name to be used later*/
-src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
+src: url('./Fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'Sansation Light'; /*a name to be used later*/
-    src: url('./fonts/Sansation_Light.ttf'); /*URL to font*/
+    src: url('./Fonts/Sansation_Light.ttf'); /*URL to font*/
     }
 
 @font-face {
   font-family: 'Rajdhani'; /*a name to be used later*/
-  src: url('./fonts/Rajdhani-Light.ttf'); /*URL to font*/
+  src: url('./Fonts/Rajdhani-Light.ttf'); /*URL to font*/
   }
 
 @font-face {
   font-family: 'Share Tech'; /*a name to be used later*/
-  src: url('./fonts/ShareTech-Regular.ttf'); /*URL to font*/
+  src: url('./Fonts/ShareTech-Regular.ttf'); /*URL to font*/
   }
 
 @font-face {
   font-family: 'Saira Stencil One'; /*a name to be used later*/
-  src: url('./fonts/SairaStencilOne-Regular.ttf'); /*URL to font*/
+  src: url('./Fonts/SairaStencilOne-Regular.ttf'); /*URL to font*/
   }
 
 
