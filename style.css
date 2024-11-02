@@ -24,10 +24,10 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   src: url('./fonts/ShareTech-Regular.ttf'); /*URL to font*/
   }
 
-  @font-face {
-    font-family: 'Saira Stencil One'; /*a name to be used later*/
-    src: url('./fonts/SairaStencilOne-Regular.ttf'); /*URL to font*/
-    }
+@font-face {
+  font-family: 'Saira Stencil One'; /*a name to be used later*/
+  src: url('./fonts/SairaStencilOne-Regular.ttf'); /*URL to font*/
+  }
 
 
 .container {
@@ -41,15 +41,21 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   margin-left: -5em;
   margin-bottom:0em;
   gap:50px;
+
+  
 }
+
 
 .item {
   width: 31.25em;
   margin: 3.125em;
+
 }
 
 .item-1 {
   min-height: 72em;
+
+
 }
 
 .item-2 {
@@ -57,7 +63,9 @@ src: url('./fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   position: relative;
   user-select: none;
 
-  
+
+
+
 }
 
 .c_TheVault {
@@ -117,6 +125,7 @@ transform-origin: top left;
   margin-bottom: 0;
   letter-spacing: 0;
   text-transform: none;
+  padding-left:50px;
 }
 
 .c_c-vresumecontactin-text {
@@ -383,16 +392,16 @@ transform-origin: top left;
 }
 
 .c_taiko3-instance:hover .c_taiko3-rectangle1{
-  transition: all 300ms ease;
+  transition: all 200ms ease;
   transform-origin: center;
-  transform: scale(1.04);
+  transform: scale(1.05);
   opacity:0;
 }
 
 .c_taiko3-instance:hover .c_taiko3-rectangle{
-  transition: all 300ms ease;
+  transition: all 200ms ease;
   transform-origin: center;
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 .c_taikoinfo {
@@ -401,7 +410,7 @@ transform-origin: top left;
   margin: 0;
   position: absolute;
   left: 0.875em;
-  bottom: 25.625em;
+  bottom: 25.725em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -416,6 +425,7 @@ transform-origin: top left;
 
 }
 
+.c_photo2-rectangle0,
 .c_photo2-rectangle,
 .c_photo2-rectangle1 {
     width: 100%;
@@ -446,27 +456,28 @@ transform-origin: top left;
   margin: 0;
   position: absolute;
   left: 0.875em;
-  bottom: 30.625em;
+  bottom: 30.825em;
   z-index:-1;
   transition: all 1s ease;
 }
 
 .c_photo2-instance:hover .c_photo2-rectangle1{
-  transition: all 400ms ease;
-  transform-origin: top left;
-  transform: scale(1.025);
+  transition: all 200ms ease;
+  transform-origin: center;
+  transform: scale(1.04);
   opacity:0;
 }
 
 .c_photo2-instance:hover .c_photo2-rectangle{
-  transition: all 400ms ease;
-  transform-origin: top left;
-  transform: scale(1.025);
+  transition: all 200ms ease;
+  transform-origin: center;
+  transform: scale(1.04);
+
 }
 
 .c_photo2-instance:hover .c_photoinfo{
   transition: all 1s ease;
-  transform-origin: top left;
+  transform-origin: center;
   transform: translateX(-14.25em);
 }
 
@@ -520,7 +531,7 @@ c_text-instance {
   margin: 0;
   position: absolute;
   left: 1.875em;
-  bottom: 36.25em;
+  bottom: 36.45em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -561,6 +572,16 @@ c_text-instance {
   box-shadow: 0 0.25em 0.25em 0 rgba(0,0,0,.25);
 }
 
+.c_headphone {
+  width: 100%;
+  margin: 0;
+  max-width: 4.0625em;
+  max-height:4.0625em;
+  position: absolute;
+  left: -5em;
+  top: 41.525em;
+}
+
 .c_music3-rectangle1 {
   width: 100%;
   max-width: 9.4375em;
@@ -577,28 +598,28 @@ c_text-instance {
   margin: 0;
   position: absolute;
   left: 6.25em;
-  bottom: 41.3em;
+  bottom: 41.4em;
   z-index:-1;
   transition: all 1s ease;
 }
 
 .c_music3-instance:hover .c_musicinfo{
   transition: all 1s ease;
-  transform-origin: top left;
+  transform-origin: center;
   transform: translateX(-10.3125em);
 }
 
 .c_music3-instance:hover .c_music3-rectangle1{
-  transition: all 400ms ease;
-  transform-origin: bottom right;
-  transform: scale(1.025);
+  transition: all 200ms ease;
+  transform-origin: center;
+  transform: scale(1.04);
   opacity:0;
 }
 
 .c_music3-instance:hover .c_music3-rectangle{
-  transition: all 400ms ease;
-  transform-origin: bottom right;
-  transform: scale(1.025);
+  transition: all 200ms ease;
+  transform-origin: center;
+  transform: scale(1.04);
 }
 
 .c_ellipse4-ellipse {
@@ -671,7 +692,7 @@ c_text-instance {
 }
 
 .c_markings-vector {
-  transform-origin: 27.8125em 24.5em;
+  transform-origin: 27.7125em 24.8em;
   transition: transform 2.75s ease-in-out;
   transform: rotate(0deg);
 }
@@ -756,27 +777,16 @@ body.stop-transitions * {
   transition: none !important;
 }
 
-
-@media (max-width: 1280px) {
-
-  .item {
-
-  }  
+@media (max-width: 1267px) {
 
   .c_codes {
     position: relative;
-    transform:scale(1.5);
-    top: -19.75em;
-    left: 15.2em;
+    /* top: -19.75em;
+    left: 15.2em; */
     transition: all 100ms ease;
     z-index: 5;
-    transform:translate3D(-245px, 1100px, 0px);
-    
+
   }
-
-}
-
-@media (max-width: 960px) {
 
 .container {
   flex-wrap: wrap;
@@ -805,6 +815,8 @@ transform:translate3D(-45px, -950px, 0px);
 
 .c_codes {
 align-self: center;
+top: -19.75em;
+left: 15.2em;
 transform:translate3D(-50px, 200px, 0px);
 }
 
@@ -868,16 +880,21 @@ transform:translate3D(309px, -102px, 0px);
   }
 
   .c_music3-rectangle, .c_music3-rectangle1 {
-left:123px;
-top: 481px;
+left:131px;
+top: 479px;
   }
 
+  .c_ellipse5-ellipse {
+    left:97px;
+    top: 495px;
+      }
+
 .c_music3-instance:hover .c_music3-rectangle1{
-  transform-origin: bottom left;
+  transform-origin: center;
 }
 
 .c_music3-instance:hover .c_music3-rectangle{
-  transform-origin: bottom left;
+  transform-origin: center;
 }
 
 .c_TheVault {
@@ -935,7 +952,7 @@ transform:translate3D(257px, -85px, 0px);
 }
 
 .c_markings-vector {
-  animation: 150s infinite linear rotating;
+  animation: 100s infinite linear rotating;
 }
 
 }
