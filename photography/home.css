@@ -59,7 +59,7 @@ body {
     /* border: 1px solid rgb(0, 255, 170); */
     border-radius: 50px;   
     position: fixed;
-    clip-path: inset(0px 0px 30px 10px); Adjust values to crop
+    clip-path: inset(0px 0px 30px 10px); 
 }
 
 .menu {
