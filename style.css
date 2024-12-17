@@ -455,7 +455,7 @@ transform-origin: top left;
   max-height: 33.8125em;
   margin: 0;
   position: absolute;
-  left: 0.875em;
+  left: 0.75em;
   bottom: 30.825em;
   z-index:-1;
   transition: all 1s ease;
@@ -478,7 +478,7 @@ transform-origin: top left;
 .c_photo2-instance:hover .c_photoinfo{
   transition: all 1s ease;
   transform-origin: center;
-  transform: translateX(-14.25em);
+  transform: translateX(-9.25em);
 }
 
 .c_a-bout-text {
@@ -539,7 +539,7 @@ c_text-instance {
 .c_text-instance:hover .c_writinginfo{
   transition: all 1s ease;
   transform-origin: top left;
-  transform: translateX(-10.6875em);
+  transform: translateX(-7.6875em);
 }
 
 .c_text-instance:hover .c_text-rectangle1{
@@ -606,7 +606,7 @@ c_text-instance {
 .c_music3-instance:hover .c_musicinfo{
   transition: all 1s ease;
   transform-origin: center;
-  transform: translateX(-10.3125em);
+  transform: translateX(-10.5125em);
 }
 
 .c_music3-instance:hover .c_music3-rectangle1{
