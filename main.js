@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         rotatingHour.classList.add('rotate-fast-reverse');
         rotatingMinute.classList.add('rotate-slow-reverse');
         rotatingArrow.classList.add('rotate-dashes-photo');
-        rotatingMarkings.classList.add('rotate-dashes-reverse-photo');
+        rotatingMarkings.classList.add('rotate-dashes-photo-reverse');
     });
 
     hoverImage2.addEventListener('mouseout', function() {

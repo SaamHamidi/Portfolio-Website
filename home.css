@@ -28,6 +28,12 @@
     src: url('/Fonts/Inter_18pt-Light.ttf');
 }
 
+@font-face {
+    font-family: 'Proxima';
+    src: url('/Fonts/proximanova_light.otf');
+}
+
+
 
 * {
     box-sizing: border-box;
@@ -252,6 +258,7 @@ body {
 .nav-links a.active {
     background-color: #666666; 
     border-radius: 5px;
+    padding-right: 20px; /* Adjust these values as needed */
 }
 
 
@@ -344,6 +351,7 @@ body {
         box-sizing: border-box;
         background-color: #1A1919;
         font-family: 'Rajdhani', sans-serif;
+        border-radius: 0px;
         /* font-size: 16pt; */
     }
 

@@ -72,8 +72,10 @@ src: url('/Fonts/jsMath-cmsy10.ttf'); /*URL to font*/
 max-width: 200px;
 max-height:100px;
 user-select: none;
-transform: scale(1.25);
+transform:scale(1.25) translateY(195px);
 transform-origin: top left;
+padding-left: 50px;
+
 }
 
 .c_u-pdates-text,
@@ -640,8 +642,8 @@ c_text-instance {
   max-width: 5em;
   border-radius: 100%;
   position: absolute;
-  left: -10.1875em;
-  top: 31.6875em;
+  left: -9.9875em;
+  top: 31.8975em;
 }
 
 .c_ellipse6-ellipse {
@@ -773,6 +775,8 @@ c_text-instance {
   transition: transform 4s;
 }
 
+
+
 body.stop-transitions * {
   transition: none !important;
 }
@@ -810,7 +814,7 @@ body.stop-transitions * {
   }
   
 .c_TheVault {
-transform:translate3D(-45px, -950px, 0px);
+transform:translate3D(-155px, -950px, 0px);
 }
 
 .c_codes {
@@ -880,7 +884,8 @@ transform:translate3D(309px, -102px, 0px);
   }
 
   .c_music3-rectangle, .c_music3-rectangle1 {
-left:131px;
+/* left:131px; */
+left:127px;
 top: 479px;
   }
 
@@ -898,7 +903,7 @@ top: 479px;
 }
 
 .c_TheVault {
-  transform:translate3D(28px, -792.3px, 0px);
+  transform:translate3D(-7px, -792.3px, 0px) scale(0.75);
   }
   
 .c_codes {
