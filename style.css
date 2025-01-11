@@ -412,7 +412,7 @@ padding-left: 50px;
   margin: 0;
   position: absolute;
   left: 0.875em;
-  bottom: 25.725em;
+  bottom: 26.2em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -420,7 +420,7 @@ padding-left: 50px;
 .c_taiko3-instance:hover .c_taikoinfo{
   transition: all 1s ease;
   transform-origin: top left;
-  transform: translateX(-7.9375em);
+  transform: translateX(-11.9375em);
 }
 
 .c_photo2-instance {
@@ -457,8 +457,8 @@ padding-left: 50px;
   max-height: 33.8125em;
   margin: 0;
   position: absolute;
-  left: 0.75em;
-  bottom: 30.825em;
+  left: 1.75em;
+  bottom: 31.5em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -480,7 +480,7 @@ padding-left: 50px;
 .c_photo2-instance:hover .c_photoinfo{
   transition: all 1s ease;
   transform-origin: center;
-  transform: translateX(-9.25em);
+  transform: translateX(-13.2em);
 }
 
 .c_a-bout-text {
@@ -532,7 +532,7 @@ c_text-instance {
   max-height: 33.8125em;
   margin: 0;
   position: absolute;
-  left: 1.875em;
+  left: 3.875em;
   bottom: 36.45em;
   z-index:-1;
   transition: all 1s ease;
@@ -541,7 +541,7 @@ c_text-instance {
 .c_text-instance:hover .c_writinginfo{
   transition: all 1s ease;
   transform-origin: top left;
-  transform: translateX(-7.6875em);
+  transform: translateX(-11.6875em);
 }
 
 .c_text-instance:hover .c_text-rectangle1{
@@ -599,7 +599,7 @@ c_text-instance {
   max-height: 33.8125em;
   margin: 0;
   position: absolute;
-  left: 6.25em;
+  left: 8.5em;
   bottom: 41.4em;
   z-index:-1;
   transition: all 1s ease;
@@ -608,7 +608,7 @@ c_text-instance {
 .c_music3-instance:hover .c_musicinfo{
   transition: all 1s ease;
   transform-origin: center;
-  transform: translateX(-10.5125em);
+  transform: translateX(-13.3em);
 }
 
 .c_music3-instance:hover .c_music3-rectangle1{

@@ -2,6 +2,7 @@ function initializeNavbarInteractions() {
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('nav-links');
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    const submenuLinks = navLinks.querySelectorAll('.submenu');
 
     let startX;
 
@@ -60,43 +61,30 @@ function initializeNavbarInteractions() {
         return url.replace(/\/$/, '');
     }
 
-    // Highlight only the current page link
+    // Highlight the current page link and its main page
     const currentLocation = normalizeUrl(window.location.href);
-    const links = navLinks.querySelectorAll('.submenu');
+    submenuLinks.forEach((link) => {
+        const linkUrl = normalizeUrl(link.href);
 
-    links.forEach((link) => {
-        if (normalizeUrl(link.href) === currentLocation) {
+        // Highlight if the current URL starts with the link URL
+        if (currentLocation.startsWith(linkUrl)) {
             link.classList.add('active');
+            const parentLi = link.closest('.dropdown');
+            if (parentLi) {
+                parentLi.style.display = 'block';
+                parentLi.parentElement.classList.add('active');
+            }
         } else {
             link.classList.remove('active');
         }
     });
 
-    // Update active link on click
-    navLinks.addEventListener('click', (e) => {
-        if (e.target.classList.contains('submenu')) {
-            links.forEach((link) => link.classList.remove('active'));
-            e.target.classList.add('active');
-            localStorage.setItem('activeLink', normalizeUrl(e.target.href));
-        }
-    });
-
-    // Close menu and reset dropdowns on outside click
-    document.addEventListener('click', (e) => {
-        if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
+    // Close menu on submenu link click
+    submenuLinks.forEach((link) => {
+        link.addEventListener('click', () => {
             navLinks.classList.remove('show');
             hamburger.classList.remove('hamburger-translate');
-
-            dropdownToggles.forEach((toggle) => {
-                const parentLi = toggle.parentElement;
-                const dropdown = parentLi.querySelector('.dropdown');
-                dropdown.style.display = 'none';
-                parentLi.classList.remove('active');
-
-                const dropdownId = toggle.getAttribute('data-dropdown');
-                localStorage.removeItem(dropdownId);
-            });
-        }
+        });
     });
 
     // Reset menu and dropdowns on window resize

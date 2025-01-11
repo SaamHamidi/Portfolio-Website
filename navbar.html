@@ -34,22 +34,17 @@
         <li>
             <a href="#" class="dropdown-toggle" data-dropdown="taiko">Taiko <span class="dropdown-icon">&#9662;</span></a>
             <div class="dropdown" id="taiko">
-                <a href="/taiko/yamane-taiko" class="submenu" id="taiko-sub1">&nbsp;&nbsp;&nbsp;&nbsp;Yamane Taiko</a>
-                <a href="/taiko/blossom-bash" class="submenu" id="taiko-sub2">&nbsp;&nbsp;&nbsp;&nbsp;Blossom Bash</a>
+                <a href="/taiko/performances" class="submenu" id="taiko-sub1">&nbsp;&nbsp;&nbsp;&nbsp;Performances</a>
+                <a href="/taiko/compositions" class="submenu" id="taiko-sub2">&nbsp;&nbsp;&nbsp;&nbsp;Compositions</a>
             </div>
         </li>
         <li>
             <a href="#" class="dropdown-toggle" data-dropdown="visual">Visual <span class="dropdown-icon">&#9662;</span></a>
             <div class="dropdown" id="visual">
-                <a href="/visual/light" class="submenu" id="photography-sub1">&nbsp;&nbsp;&nbsp;&nbsp;Light</a>
-                <a href="/visual/fog-II" class="submenu" id="photography-sub2">&nbsp;&nbsp;&nbsp;&nbsp;Fog II</a>
-                <a href="/visual/pomegranate" class="submenu" id="photography-sub3">&nbsp;&nbsp;&nbsp;&nbsp;Pomegranate</a>
-                <a href="/visual/people" class="submenu" id="photography-sub4">&nbsp;&nbsp;&nbsp;&nbsp;People</a>
-                <a href="/visual/world" class="submenu" id="photography-sub5">&nbsp;&nbsp;&nbsp;&nbsp;World</a>
-                <a href="/visual/kamae" class="submenu" id="photography-sub6">&nbsp;&nbsp;&nbsp;&nbsp;Kamae</a>
-                <a href="/visual/ktm-690" class="submenu" id="photography-sub7">&nbsp;&nbsp;&nbsp;&nbsp;KTM 690</a>
-                <a href="/visual/long-shutter/" class="submenu" id="photography-sub8">&nbsp;&nbsp;&nbsp;&nbsp;Long Shutter</a>
-                <a href="/visual/taikopalooza/" class="submenu" id="photography-sub9">&nbsp;&nbsp;&nbsp;&nbsp;Taikopalooza</a>
+                <a href="/visual/gallery" class="submenu" id="photography-sub1">&nbsp;&nbsp;&nbsp;&nbsp;Gallery</a>
+                <a href="/visual/people" class="submenu" id="photography-sub2">&nbsp;&nbsp;&nbsp;&nbsp;People</a>
+                <a href="/visual/archive" class="submenu" id="photography-sub3">&nbsp;&nbsp;&nbsp;&nbsp;Archive</a>
+
             </div>
         </li>
         <li>
@@ -65,8 +60,28 @@
                 <a href="/sound/partitions" class="submenu" id="music-sub2">&nbsp;&nbsp;&nbsp;&nbsp;Partitions</a>
                 <a href="/sound/soundscape" class="submenu" id="music-sub3">&nbsp;&nbsp;&nbsp;&nbsp;Soundscapes</a>
                 
+                
             </div>
         </li>
+        <li class="vault-door"><a href="/">Vault Door</a></li>
+        <style>
+            li.vault-door {
+              margin-top: 0.8em; /* Adjust the value to control the lowering */
+            }
+
+            .vault-door {
+                display: none; /* Hide by default */
+            }
+
+            @media (max-width: 768px) { /* Adjust the width as needed for your "small screen" definition */
+                .vault-door {
+                display: block; /* Show when the screen width is 768px or smaller */
+                }
+            }
+          </style>
+
+          
+        
     </ul>
 
     
