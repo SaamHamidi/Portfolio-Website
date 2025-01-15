@@ -483,18 +483,30 @@ padding-left: 50px;
   transform: translateX(-13.2em);
 }
 
-.c_a-bout-text {
+
+.c_about-text {
   width: 100%;
   max-width: 7.375em;
   height: auto;
   position: absolute;
   left: 24.6em;
   top: 46em;
+  transition: all 100ms ease;
 }
 
-.c_a-bout-text:hover {
-  transition: all 100ms ease;
-  transform: scale(1.025);
+.c_about-code {
+  width: 100%;
+  max-width: 7.375em;
+  height: auto;
+  position: absolute;
+  left: 24.6em;
+  top: 46em;
+  transition: all 500ms ease;
+}
+
+.c_about-code:hover{
+  transition: all 500ms ease;
+  transform: translateX(0.5em);
 }
 
 c_text-instance {
