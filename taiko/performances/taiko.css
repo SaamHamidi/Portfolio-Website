@@ -27,7 +27,10 @@
     font-family: 'Inter';
     src: url('/Fonts/Inter_18pt-Light.ttf');
 }
-
+@font-face {
+    font-family: 'Lekton'; /*a name to be used later*/
+    src: url('/Fonts/Lekton-Regular.ttf'); /*URL to font*/
+    }
 
 * {
     box-sizing: border-box;
