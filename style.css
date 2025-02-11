@@ -41,7 +41,7 @@ src: url('/Fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   margin-left: -5em;
   margin-bottom:0em;
   gap:50px;
-
+  
   
 }
 
@@ -489,7 +489,7 @@ padding-left: 50px;
   max-width: 7.375em;
   height: auto;
   position: absolute;
-  left: 24.6em;
+  left: 25.7em;
   top: 46em;
 }
 
@@ -498,7 +498,7 @@ padding-left: 50px;
   max-width: 7.375em;
   height: auto;
   position: absolute;
-  left: 24.6em;
+  left: 25.7em;
   top: 46em;
   transition: all 300ms ease;
 }
@@ -794,6 +794,10 @@ body.stop-transitions * {
 
 @media (max-width: 1267px) {
 
+  .c_TheVault {
+    display:none;
+    }
+
   .c_codes {
     position: relative;
     /* top: -19.75em;
@@ -858,6 +862,10 @@ transform:translate3D(309px, -102px, 0px);
 
 
 @media (max-width: 760px) {
+
+  .c_TheVault {
+    display:none;
+    }
 
   .container {
     font-size: 10px;
