@@ -279,7 +279,7 @@ body {
 }
 
 .rect-button {
-    padding: 12px;
+    padding: 8px;
     margin: 5px;
     margin-inline-start: 0%;
     margin-inline-end: 0%;
@@ -298,7 +298,7 @@ body {
     display:block;
     font-family: 'Rajdhani', sans-serif;
 
-    
+
   
     /* Ensure the entire button is clickable */
 
@@ -448,6 +448,7 @@ body {
     #nav-links a:active {
         background-color: #2a2a2a; /* Change background on click */
     }
+
 }
 
 @media (max-width: 1168px) {
