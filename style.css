@@ -204,7 +204,7 @@ padding-left: 50px;
   top:0vh;
   left:50%;
   transform:translateX(-3.75em);
-  border-style: solid;
+  /* border-style: solid; */
   max-width: 50% !important;
   min-width: 50% !important;
   
