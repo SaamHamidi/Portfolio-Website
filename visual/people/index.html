@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People</title>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="shortcut icon" href="/images/Clock(1).svg" type="image/x-icon">
+</head>
+<body style="background-color: #2a2a2a;"> 
+
+    <div class="item">
+        <div>
+          <link href="./c_TheVault.css" rel="stylesheet" />
+          <a href="/">
+            <img
+                src="/assets/Front Page.svg"
+                width="173"
+                height="79"
+                class="c_TheVault"
+                draggable="false"
+                unselectable="on"
+            />
+        </a>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="container">
+            <nav class="left" id="navbar">
+                <div id="navbar"></div>
+                <script>
+                    fetch('/navbar.html')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('navbar').innerHTML = data;
+                
+                            // Initialize the script after loading the navbar
+                            initializeNavbarInteractions();
+                        });
+                </script>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="box">
+                <div class="text">
+                    <center><h2>People</h2></center>
+                    <style>
+                        h2 {
+                            font-family: 'Rajdhani', sans-serif; /* Change to the desired font */
+                            text-align: center;
+                        }
+                    </style>
+                    <center><h4></h4></center>
+                    <style>
+                        h4 {
+                            font-family: Rajdhani, sans-serif; /* Change to the desired font */
+                            text-align: center;
+                        }
+                    </style>
+                    <p>&nbsp; </p>
+                    <div class="gallery">
+
+                        
+                        
+                        
+                        <img src="photos/P1090800-2.jpg">
+                        <img src="photos/P1090107-5.jpg">
+                        <img src="photos/P1060560_3-min.jpg">
+                        <img src="photos/P1130252.jpg">
+                        <img src="photos/P1120764.jpg">
+                        <img src="photos/P1110459.jpg">
+
+                        <img src="photos/P1020842.jpg">
+                        <img src="photos/P1020843.jpg">
+                        <!-- <img src="photos/P1020846.jpg"> -->
+                        <img src="photos/P1020863-min.jpg">
+                        
+                        
+                        <img src="photos/P1100191.jpg">
+                        <img src="photos/P1100337.jpg">
+                        
+                        <img src="photos/P1100465.jpg">
+                        <img src="photos/P1080258.jpg">
+                        <!-- <img src="photos/P1100590.jpg">
+                        <img src="photos/P1100671.jpg"> -->
+
+                        <img src="photos/P1090217.jpg">
+                        
+                        
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
