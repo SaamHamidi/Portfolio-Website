@@ -271,14 +271,44 @@ body {
 
 /* Media Queries for Responsive Design */
 
-@media (max-width: 1536px) {
-    .box {
+@media (max-width: 2400px) {
+    .main {
+
+        transform:translateX(-170px);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 2000px) {
+
+    .main {
 
         transform:translateX(0px);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1536px) {
+    
+    .box {
+
+        transform:translateX(0px);
+        padding-right: 50px;
+        
+    }
+
+}
+
+@media (max-width: 1168px) {
+
+    .box {
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 868px) {
+
+
     .container {
         flex-direction: column;
         height: 100vh;
@@ -364,4 +394,20 @@ body {
     #nav-links a:active {
         background-color: #2a2a2a; /* Change background on click */
     }
+}
+
+@media (max-width: 1168px) {
+
+.main {
+
+    display: block; /* Use flexbox to center the box */
+
+}
+
+.nav2 {
+
+    width: 100%;
+    max-width: 100%;
+}
+
 }
