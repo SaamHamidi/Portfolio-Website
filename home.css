@@ -320,7 +320,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .container {
         flex-direction: column;
         height: 100vh;
