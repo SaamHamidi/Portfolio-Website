@@ -412,7 +412,7 @@ padding-left: 50px;
   margin: 0;
   position: absolute;
   left: 0.875em;
-  bottom: 26.2em;
+  bottom: 27.5em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -458,7 +458,7 @@ padding-left: 50px;
   margin: 0;
   position: absolute;
   left: 1.75em;
-  bottom: 31.5em;
+  bottom: 30.5em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -544,7 +544,7 @@ c_text-instance {
   margin: 0;
   position: absolute;
   left: 3.875em;
-  bottom: 36.45em;
+  bottom: 33.45em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -552,7 +552,7 @@ c_text-instance {
 .c_text-instance:hover .c_writinginfo{
   transition: all 1s ease;
   transform-origin: top left;
-  transform: translateX(-11.6875em);
+  transform: translateX(-12.6875em);
 }
 
 .c_text-instance:hover .c_text-rectangle1{
@@ -611,7 +611,7 @@ c_text-instance {
   margin: 0;
   position: absolute;
   left: 8.5em;
-  bottom: 41.4em;
+  bottom: 36.45em;
   z-index:-1;
   transition: all 1s ease;
 }
@@ -619,7 +619,7 @@ c_text-instance {
 .c_music3-instance:hover .c_musicinfo{
   transition: all 1s ease;
   transform-origin: center;
-  transform: translateX(-13.3em);
+  transform: translateX(-18em);
 }
 
 .c_music3-instance:hover .c_music3-rectangle1{
