@@ -52,11 +52,9 @@ body {
 } */
 
 .c_TheVault {
-    max-width: 200px;
-    max-height: 100px;
     user-select: none;
     padding-left: 32px;
-    transform: scale(1.4) translateY(-10px) translateX(-10px);
+    transform: scale(1.25) translateX(-0.564em) translateY(-0.36em);
     transform-origin: top left;
     margin-bottom: -25px;
     /* border: 1px solid rgb(0, 255, 170); */
@@ -310,17 +308,18 @@ body {
 }
 
 .rect-button {
-    padding: 8px;
+    padding: 12px;
+    padding-inline: 12px;
     margin: 5px;
     margin-inline-start: 0%;
     margin-inline-end: 0%;
     display:flex;
     justify-content: center;
-    font-size: 1.2em; /* Text size */
+    font-size: 1em; /* Text size */
     color: white; /* Text color */
     background-color: #1A1919; /* Button background color */
     text-decoration: none; /* Removes underline */
-    text-align: center; /* Centers text inside */
+    text-align: left; /* Centers text inside */
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners */
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
@@ -328,10 +327,6 @@ body {
     cursor: pointer; /* Pointer cursor on hover */
     display:block;
     font-family: 'Rajdhani', sans-serif;
-
-    
-  
-    /* Ensure the entire button is clickable */
 
   }
   

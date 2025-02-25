@@ -55,11 +55,9 @@ body {
 } */
 
 .c_TheVault {
-    max-width: 200px;
-    max-height: 100px;
     user-select: none;
     padding-left: 32px;
-    transform: scale(1.4) translateY(-10px) translateX(-10px);
+    transform: scale(1.25) translateX(-0.564em) translateY(-0.36em);
     transform-origin: top left;
     margin-bottom: -25px;
     /* border: 1px solid rgb(0, 255, 170); */
