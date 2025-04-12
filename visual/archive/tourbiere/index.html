@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourbiere</title>
+    <link rel="stylesheet" href="/home2.css">
+    <link rel="shortcut icon" href="/images/Clock(1).svg" type="image/x-icon">
+</head>
+<body style="background-color: #2a2a2a;"> 
+
+    <div class="item">
+        <div>
+            <link href="./c_TheVault.css" rel="stylesheet" />
+            <a href="/">
+              <img
+                  src="/assets/Clockhome.svg"
+  
+                  class="c_TheVault"
+                  draggable="false"
+                  unselectable="on"
+              />
+          </a>
+          </div>
+    </div>
+
+    <div class="menu">
+        <div class="container">
+            <nav class="left" id="navbar">
+                <div id="navbar"></div>
+                <script>
+                    fetch('/navbar.html')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('navbar').innerHTML = data;
+                
+                            // Initialize the script after loading the navbar
+                            initializeNavbarInteractions();
+                        });
+                </script>
+            </nav>
+        </div>
+        <div class="main">
+            <!-- Placeholder for nav2 -->
+            <div id="nav2"></div>
+
+            <script>
+                fetch('/archive.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('nav2').innerHTML = data;
+                    });
+            </script>
+            <div class="box">
+                <div class="text">
+                    <center><h2>Tourbiere</h2></center>
+                    <style>
+                        h2 {
+                            font-family: 'Rajdhani', sans-serif; /* Change to the desired font */
+                            text-align: center;
+                            font-weight: normal;
+                        }
+                    </style>
+                    <center><h4>A high fashion parody</h4></center>
+                    <style>
+                        h4 {
+                            font-family: Rajdhani, sans-serif; /* Change to the desired font */
+                            text-align: center;
+                            font-weight:normal;
+                        }
+                    </style>
+                    <p>&nbsp; </p>
+                    <div class="gallery">
+                        <img src="photos/Group 1.jpg">
+                        <img src="photos/P1180487-2.jpg">
+                        <img src="photos/P1170901.jpg">
+                        <img src="photos/P1180047.jpg">
+                        <img src="photos/P1180061.jpg">
+                        <img src="photos/P1180346.jpg">
+                        <img src="photos/P1180356.jpg">
+                        <img src="photos/P1180269.jpg">
+                        <img src="photos/P1180366.jpg">
+
+
+                        <img src="photos/P1180535.jpg">
+                        <img src="photos/P1180587.jpg">
+                        <img src="photos/P1180674.jpg">
+                        <img src="photos/P1180569.jpg">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    @media (max-width: 1168px) {
+    
+    .nav2 {
+    
+        display: none;
+    
+    }
+    
+    }
+    
+    </style>
+    <script src="/script.js"></script>
+
+</body>
+</html>
