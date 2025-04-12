@@ -56,15 +56,22 @@ body {
 
 .c_TheVault {
     user-select: none;
-    padding-left: 32px;
-    transform: scale(1.25) translateX(-0.564em) translateY(-0.36em);
+    transform: translateX(2.8em) translateY(1.5em) scale(0.8);
     transform-origin: top left;
-    margin-bottom: -25px;
+    margin-bottom: 0px;
+    
     /* border: 1px solid rgb(0, 255, 170); */
-    border-radius: 50px;   
+      
     position: fixed;
-    clip-path: inset(0px 0px 30px 10px); 
+    
     z-index:1000;
+    
+    
+}
+
+.c_TheVault:hover {
+    filter: brightness(1.25) contrast(1.2);
+    transition: all 100ms ease;
 }
 
 .menu {
