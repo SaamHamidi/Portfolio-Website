@@ -101,6 +101,7 @@ body {
     height: 100vh; /* Full height */
     /* border: 2px blue solid; */
     
+    
 }
 
 .box {
@@ -112,6 +113,7 @@ body {
     transform:translateX(-125px);
     z-index:0;
     justify-content: center; 
+    
 }
 
 .text {
@@ -128,15 +130,20 @@ body {
 }
 
 .gallery {
-    display: inline;
+
+    column-count: 1;
+    column-gap: 5px;
+    max-width: 1000px;
+    /* margin: 20px auto;
+    padding: 0 10px; */
 
 }
 
 .gallery img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    /* border-radius: 5px; */
+    /* margin-bottom: 5px; */
 }
 
 .rect-button {
@@ -322,6 +329,22 @@ body {
     .box {
 
         transform:translateX(0px);
+    }
+   
+    .text {
+
+        max-width: 768px; /* Fixed width */
+    
+        
+    }
+    
+    .gallery {
+
+        column-count: 1;
+        column-gap: 5px;
+        /* margin: 20px auto;
+        padding: 0 10px; */
+    
     }
 }
 
