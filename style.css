@@ -391,6 +391,7 @@ padding-left: 50px;
   position: relative;
   left: 24.5em;
   top: 15.5em;
+   opacity: 0.5;
 }
 
 .c_taiko3-instance:hover .c_taiko3-rectangle1{
@@ -450,6 +451,7 @@ padding-left: 50px;
   max-width: 11em;
   width: 100%;
   transition: all 400ms ease;
+  opacity: 0.5;
 }
 
 .c_photoinfo {
@@ -489,8 +491,10 @@ padding-left: 50px;
   max-width: 7.95em;
   height: auto;
   position: absolute;
-  left: 25.7em;
-  top: 46em;
+  /* left: 25.7em; */
+  left: 35.4em;
+  /* top: 46em; */
+  top: 42em;
 }
 
 .c_about-code {
@@ -498,8 +502,10 @@ padding-left: 50px;
   max-width: 7.375em;
   height: auto;
   position: absolute;
-  left: 25.7em;
-  top: 46em;
+  /* left: 25.7em; */
+  left: 35.4em;
+  /* top: 46em; */
+  top: 42em;
   transition: all 300ms ease;
 }
 
@@ -574,15 +580,13 @@ c_text-instance {
 }
 
 .c_music3-rectangle {
-  width: 100%;
-  margin: 0;
-  max-width: 9.4375em;
-  max-height:19.1875em;
+  
+  max-width: 9.75em;
+  height: auto;
   position: absolute;
-  left: -7.6875em;
-  top: 34.125em;
+  left: -8em; /* or something relative/consistent with others */
+  top: 31em;
   transition: all 300ms ease;
-  box-shadow: 0 0.25em 0.25em 0 rgba(0,0,0,.25);
 }
 
 .c_headphone {
@@ -593,16 +597,18 @@ c_text-instance {
   position: absolute;
   left: -5em;
   top: 41.525em;
+  display: none;
 }
 
 .c_music3-rectangle1 {
-  width: 100%;
-  max-width: 9.4375em;
-  max-height:19.1875em;
+  height: auto;
+  width: 9.75em;
   position: absolute;
-  left: -7.6875em;
-  top: 34.125em;
-  transition: all 400ms ease;
+  left: -8em;
+  top: 31em;
+  opacity: 0.5;
+  transition: all 300ms ease;
+  
 }
 
 .c_musicinfo {
@@ -653,8 +659,15 @@ c_text-instance {
   max-width: 6em;
   border-radius: 100%;
   position: absolute;
-  left: -10.2em;
-  top: 31.7em;
+  /* left: -10.2em;
+  top: 31.7em; */
+  /* left: -1em;
+  top: 35.6em; */
+  /* left: -5.9em;
+  top: 26.5em; */
+  left: -6.2em;
+  top: 27.5125em;
+  
 }
 
 .c_ellipse6-ellipse {
@@ -792,6 +805,7 @@ body.stop-transitions * {
   transition: none !important;
 }
 
+/* 1267 */
 @media (max-width: 1267px) {
 
   .c_TheVault {
@@ -904,13 +918,25 @@ transform:translate3D(309px, -102px, 0px);
 
   .c_music3-rectangle, .c_music3-rectangle1 {
 /* left:131px; */
-left:127px;
-top: 479px;
+
+left:125.5px;
+top: 475.5px;
+  }
+
+  .c_music3-rectangle {
+
+
+  }
+
+  .c_music3-rectangle1 {
+    
+
   }
 
   .c_ellipse5-ellipse {
     left:97px;
     top: 495px;
+    
       }
 
 .c_music3-instance:hover .c_music3-rectangle1{
@@ -919,6 +945,16 @@ top: 479px;
 
 .c_music3-instance:hover .c_music3-rectangle{
   transform-origin: center;
+}
+
+.c_about-text {
+   left: 24.6em; 
+  top: 46em;
+}
+
+.c_about-code {
+   left: 24.6em;
+   top: 46em; 
 }
 
 .c_TheVault {
