@@ -78,7 +78,6 @@ body {
     justify-content: center; /* Center horizontally */
     height: 100vh; /* Full height */
     /* border: 2px orange solid; */
-    padding: 10px;
 
 }
 
@@ -100,6 +99,7 @@ body {
     /* border: 2px blue solid; */
     gap: 50px;
     transform:translateX(-318px);
+    padding: 10px;
 }
 
 .box {
