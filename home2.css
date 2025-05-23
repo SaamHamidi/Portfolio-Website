@@ -103,6 +103,7 @@ body {
     gap: 50px;
     transform:translateX(-318px);
     /* background-color: white; */
+    padding: 10px;
 }
 
 .box {
