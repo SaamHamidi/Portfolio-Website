@@ -689,6 +689,7 @@ c_text-instance {
   position: absolute;
   left: -14.9em;
   top: 4em;
+  display: none;
 }
 
 
