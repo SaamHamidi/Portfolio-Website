@@ -810,7 +810,7 @@ body.stop-transitions * {
 @media (max-width: 1267px) {
 
   .c_TheVault {
-    display:none;
+/*     display:none; */
     }
 
   .c_codes {
@@ -844,7 +844,7 @@ body.stop-transitions * {
   }
   
 .c_TheVault {
-transform:translate3D(-155px, -950px, 0px);
+transform:translate3D(-40px, -100px, 0px) scale(1.25);
 }
 
 .c_codes {
@@ -879,7 +879,7 @@ transform:translate3D(309px, -102px, 0px);
 @media (max-width: 760px) {
 
   .c_TheVault {
-    display:none;
+/*     display:none; */
     }
 
   .container {
@@ -959,7 +959,7 @@ top: 475.5px;
 }
 
 .c_TheVault {
-  transform:translate3D(-7px, -792.3px, 0px) scale(0.75);
+  transform:translate3D(-20px,0px, 0px)
   }
   
 .c_codes {
