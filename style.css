@@ -587,6 +587,7 @@ c_text-instance {
   left: -8em; /* or something relative/consistent with others */
   top: 31em;
   transition: all 300ms ease;
+  box-shadow: 0 0.25em 0.25em 0 rgba(0,0,0,.25);
 }
 
 .c_headphone {
