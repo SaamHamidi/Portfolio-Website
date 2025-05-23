@@ -488,13 +488,13 @@ padding-left: 50px;
 
 .c_about-text {
   width: 100%;
-  max-width: 7.95em;
+  max-width: 6em;
   height: auto;
   position: absolute;
   /* left: 25.7em; */
   left: 35.4em;
   /* top: 46em; */
-  top: 42em;
+  top: 42.1em;
     opacity:0.75;
    transition: all 100ms ease;
 }
