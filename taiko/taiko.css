@@ -99,6 +99,7 @@ body {
     /* border: 2px blue solid; */
     gap: 50px;
     transform:translateX(-318px);
+    padding: 10px;
 }
 
 .box {
