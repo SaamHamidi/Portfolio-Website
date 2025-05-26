@@ -495,8 +495,9 @@ padding-left: 50px;
   left: 35.4em;
   /* top: 46em; */
   top: 42.1em;
-    opacity:0.75;
-   transition: all 100ms ease;
+  opacity:0.75;
+  transition: all 100ms ease;
+  display: none;
 }
 
 .c_about-code {
