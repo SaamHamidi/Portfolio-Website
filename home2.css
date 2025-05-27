@@ -424,7 +424,11 @@ body {
         
     }
 
-
+    .rect-button {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    
     .rectangle22, .rectangle23 {
     display:none;
     }
