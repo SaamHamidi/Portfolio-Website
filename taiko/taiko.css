@@ -421,6 +421,11 @@ body {
     display:none;
     }
 
+    .rect-button {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
     #nav-links {
         position: fixed;
         top: 0;
