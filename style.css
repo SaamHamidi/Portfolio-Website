@@ -571,8 +571,8 @@ c_text-instance {
 }
 
 .c_text-instance:hover .c_text-rectangle1{
-  filter:none;
   transition: all 1500ms ease;
+  filter: invert(85%);
 }
 
 .c_text-instance:hover .c_text-rectangle{
