@@ -390,11 +390,11 @@ body {
 
     }
 
-    .text {
+    /* .text {
         font-family: 'Inter', sans-serif;
         font-size: 1em;
         
-    }
+    } */
 
 
     .rectangle22, .rectangle23 {
@@ -435,5 +435,13 @@ body {
 
     #nav-links a:active {
         background-color: #2a2a2a; /* Change background on click */
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+        
     }
 }

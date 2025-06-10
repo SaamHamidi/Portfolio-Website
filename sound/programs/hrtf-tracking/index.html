@@ -44,7 +44,7 @@
             <div id="nav2"></div>
 
             <script>
-                fetch('/works.html')
+                fetch('/programs.html')
                     .then(response => response.text())
                     .then(data => {
                         document.getElementById('nav2').innerHTML = data;
@@ -57,7 +57,7 @@
                         h2 {
                             font-family: 'Rajdhani', sans-serif; /* Change to the desired font */
                             text-align: center;
-                            font-size: 2em;
+                            font-size: 1.75em;
                         }
                     </style>
                     <h2>Multi-source real-time HRTF processing with head tracking</h2>
@@ -71,7 +71,7 @@
                         h4 {
                             font-family: 'Sansation Light', sans-serif; /* Change to the desired font */
                             text-align: left;
-                            font-size: 1.5em;
+                            font-size: 1.3em;
                             padding-top: 10px;
                             font-weight: normal;
                         }
@@ -184,6 +184,14 @@
 
     display: none;
 
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125em;
+        
+    }
 }
 
 }

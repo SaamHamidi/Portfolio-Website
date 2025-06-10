@@ -28,9 +28,15 @@
     src: url('/Fonts/Inter_18pt-Light.ttf');
 }
 @font-face {
-    font-family: 'Lekton'; /*a name to be used later*/
-    src: url('/Fonts/Lekton-Regular.ttf'); /*URL to font*/
+    font-family: 'Lekton'; 
+    src: url('/Fonts/Lekton-Regular.ttf'); 
     }
+
+@font-face {
+    font-family: 'Roboto Mono'; /*a name to be used later*/
+    src: url('/Fonts/RobotoMono-VariableFont_wght.ttf'); /*URL to font*/
+    }
+
 
 * {
     box-sizing: border-box;
@@ -410,11 +416,11 @@ body {
 
     }
 
-    .text {
+    /* .text {
         font-family: 'Inter', sans-serif;
         font-size: 1em;
         
-    }
+    } */
 
 
     .rectangle22, .rectangle23 {
@@ -478,4 +484,12 @@ body {
     max-width: 100%;
 }
 
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+        
+    }
 }

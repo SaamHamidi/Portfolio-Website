@@ -327,11 +327,11 @@ body {
 
     }
 
-    .text {
+    /* .text {
         font-family: 'Inter', sans-serif;
         font-size: 1em;
         
-    }
+    } */
 
 
     .rectangle22, .rectangle23 {
@@ -375,3 +375,10 @@ body {
     }
 }
 
+@media (max-width: 480px) {
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+        
+    }
+}

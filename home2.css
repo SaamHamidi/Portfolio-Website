@@ -422,11 +422,11 @@ body {
 
     }
 
-    .text {
+    /* .text {
         font-family: 'Inter', sans-serif;
         font-size: 1.1em;
         
-    }
+    } */
 
     .rect-button {
         font-size: 1.25em;
@@ -488,4 +488,12 @@ body {
     max-width: 100%;
 }
 
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+        
+    }
 }
