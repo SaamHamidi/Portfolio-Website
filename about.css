@@ -420,7 +420,7 @@ body {
 @media (max-width: 480px) {
     .text {
         font-family: 'Inter', sans-serif;
-        font-size: 1.125em;
+        font-size: 1em;
         
     }
 }
