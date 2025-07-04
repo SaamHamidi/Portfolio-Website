@@ -496,6 +496,11 @@ body {
         font-size: 1em;
         
     }
+
+       #nav-links a {
+        font-weight: bold;
+
+    }
 }
 
 @media (max-width: 1168px) {
