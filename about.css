@@ -33,6 +33,36 @@
     src: url('/Fonts/proximanova_light.otf');
 }
 
+@font-face {
+    font-family: 'Gambetta';
+    src: url('/Fonts/Gambetta-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('/Fonts/Hind-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'HindLight';
+    src: url('/Fonts/Hind-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/Fonts/Manrope-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Recia';
+    src: url('/Fonts/Recia-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSerif4';
+    src: url('/Fonts/SourceSerif4-Regular.ttf');
+}
+
 
 
 * {

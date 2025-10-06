@@ -354,7 +354,7 @@ padding-left: 50px;
   font-family: "Share Tech",sans-serif;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   text-transform: none;
 }
 
@@ -880,7 +880,7 @@ transform:translate3D(309px, -102px, 0px);
 
 
 .c_projects-text1 {
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
 }
@@ -906,7 +906,7 @@ transform:translate3D(309px, -102px, 0px);
   }
 
   .c_projects-text1 {
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
   }
 
   .item {
