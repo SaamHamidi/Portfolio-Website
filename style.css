@@ -343,13 +343,15 @@ padding-left: 50px;
   max-width: auto;
   min-height: auto;
   position: absolute;
-  left:2.9375em;
-  top: 16.9375em;
+  /* left:2.9375em;
+  top: 16.9375em; */
+  left: 2.7em;
+  top: 16em;
 }
 
 .c_projects-text1 {
   color: #fff;
-  font-size: 3em;
+  font-size: 4em;
   font-style: normal;
   font-family: "Share Tech",sans-serif;
   font-weight: 400;
