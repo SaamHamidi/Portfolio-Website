@@ -310,7 +310,7 @@ body {
     transition: background-color 0.1s ease, box-shadow 0.1s ease; /* Smooth hover effects */
     cursor: pointer; /* Pointer cursor on hover */
     display:block;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Rajdhani Regular', sans-serif;
 
 
   
@@ -429,7 +429,7 @@ body {
 
     .rect-button {
         font-size: 1.25em;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     #nav-links {

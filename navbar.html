@@ -77,6 +77,10 @@
 </ul>
 
 <style>
+    @font-face {
+  font-family: 'Rajdhani Regular'; /*a name to be used later*/
+  src: url('/Fonts/Rajdhani-Regular.ttf'); /*URL to font*/
+  }
     /* Adjust margin to lower "Vault Door" */
     li.vault-door {
         margin-top: 0.8em;
@@ -104,12 +108,14 @@
     /* Styling for dropdown toggle */
     .dropdown-toggle {
         font-size: 15px;
+        
 
     }
 
     /* Optional: Style the dropdown arrow */
     .dropdown-icon {
         font-size: 15px;
+        
        
     }
 
@@ -118,6 +124,8 @@
     background-color: #2a2a2a; /* Dropdown background color */
     min-width: 100%; /* Match width of parent */
     z-index: 1; /* Ensure it appears above other content */
+    
+    
 
     }
 
@@ -131,7 +139,7 @@
         padding: 2px; /* Padding for dropdown items */
         color: white; /* Text color */
         text-decoration: none; /* Remove underline */
-        font-family: 'Rajdhani', sans-serif;
+        font-family: 'Rajdhani Regular', sans-serif;
     }
 
 
@@ -140,6 +148,7 @@
         transform: rotate(-90deg); /* Rotate icon when active */
         transition: transform 0.2s ease; /* Smooth rotation */
         margin-left: -18px;
+        
 
         /* padding-right: 4px; */
 
@@ -147,6 +156,10 @@
 
     .left li.active .dropdown-icon {
         transform: rotate(0deg); /* Rotate icon when active */
+    }
+
+    .left a {
+        font-family: 'Rajdhani Regular', sans-serif;
     }
 
 

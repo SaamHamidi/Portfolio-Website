@@ -20,6 +20,13 @@ src: url('/Fonts/jsMath-cmsy10.ttf'); /*URL to font*/
   }
 
 @font-face {
+  font-family: 'Rajdhani Regular'; /*a name to be used later*/
+  src: url('/Fonts/Rajdhani-Regular.ttf'); /*URL to font*/
+  }
+
+
+
+@font-face {
   font-family: 'Share Tech'; /*a name to be used later*/
   src: url('/Fonts/ShareTech-Regular.ttf'); /*URL to font*/
   }
@@ -117,17 +124,25 @@ padding-left: 50px;
 .c_there-isn--much-of-text2,
 .c_there-isn--much-of-text3 {
   color: #fff;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-style: normal;
   margin-top: 0;
   text-align: left;
   font-family: "Rajdhani",sans-serif;
-  font-weight: 300;
+  /* font-weight: 300; */
   line-height: normal;
   margin-bottom: 0;
   letter-spacing: 0;
   text-transform: none;
   padding-left:50px;
+  margin-bottom: 5px;
+}
+
+.c_there-isn--much-of-text1 {
+  font-weight: 0;
+  font-family: "Rajdhani Regular",sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
 .c_c-vresumecontactin-text {
@@ -873,6 +888,9 @@ transform:translateX(-45px);
 
 .c_there-isn--much-of-text {
 transform:translateX(-45px);
+font-size:1.1em;
+
+width: 420px;
 }
 
 .c_c-vresumecontactin-text, .c_hamidi-saam-gmail-co-text {
@@ -897,7 +915,7 @@ transform:translate3D(309px, -102px, 0px);
   .container {
     font-size: 10px;
     margin-left: 0px;
-    padding-top: 5vh;
+    padding-top: 0px;
     padding-inline-end: 0em;
     padding-inline-start:0em;
     overflow: hidden;
@@ -918,7 +936,7 @@ transform:translate3D(309px, -102px, 0px);
   .item-1 {
     min-height: 4.5em;
     width: 31.25em;
-    margin: 3.125em;
+    margin: 5.125em;
     
   }
 
@@ -989,6 +1007,9 @@ transform:translateX(28px);
 
 .c_there-isn--much-of-text {
 transform:translateX(28px);
+transform:translateY(110px);
+width:360px;
+font-size: 1.1em;
 }
 
 .c_c-vresumecontactin-text, .c_hamidi-saam-gmail-co-text {

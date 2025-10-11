@@ -63,6 +63,11 @@
     src: url('/Fonts/SourceSerif4-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Rajdhani Regular'; /*a name to be used later*/
+  src: url('/Fonts/Rajdhani-Regular.ttf'); /*URL to font*/
+  }
+
 
 
 * {
@@ -191,7 +196,7 @@ body {
     transition: background-color 0.1s ease, box-shadow 0.1s ease; /* Smooth hover effects */
     cursor: pointer; /* Pointer cursor on hover */
     display:block;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Rajdhani Regular', sans-serif;
 
     
   
@@ -275,12 +280,13 @@ body {
 .left li {
     margin: 10px 0; /* Spacing between dropdown items */
     position: relative; /* For dropdown positioning */
+    
 }
 
 .left a {
     text-decoration: none;
     color: white;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Rajdhani Regular', sans-serif;
     font-size: 1.25em;
 }
 
@@ -437,7 +443,7 @@ body {
         padding-left: 15px;
         box-sizing: border-box;
         background-color: #1A1919;
-        font-family: 'Rajdhani', sans-serif;
+        font-family: 'Rajdhani Regular', sans-serif;
         border-radius: 0px;
         /* font-size: 16pt; */
     }

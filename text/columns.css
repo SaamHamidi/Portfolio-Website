@@ -337,7 +337,7 @@ body {
     transition: background-color 0.1s ease, box-shadow 0.1s ease; /* Smooth hover effects */
     cursor: pointer; /* Pointer cursor on hover */
     display:block;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Rajdhani Regular', sans-serif;
 
   }
   
@@ -446,7 +446,7 @@ body {
     } */
     .rect-button {
         font-size: 1.25em;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     .rectangle22, .rectangle23 {
@@ -480,7 +480,7 @@ body {
         padding-left: 15px;
         box-sizing: border-box;
         background-color: #1A1919;
-        font-family: 'Rajdhani', sans-serif;
+        font-family: 'Rajdhani Regular', sans-serif;
         border-radius: 0px;
         /* font-size: 16pt; */
     }
