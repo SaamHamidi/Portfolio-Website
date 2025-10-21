@@ -124,7 +124,7 @@ padding-left: 50px;
 .c_there-isn--much-of-text2,
 .c_there-isn--much-of-text3 {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-style: normal;
   margin-top: 0;
   text-align: left;
@@ -887,7 +887,7 @@ transform:translateX(-45px);
 }
 
 .c_there-isn--much-of-text {
-transform:translateX(-45px);
+transform:translateX(0px);
 font-size:1.1em;
 
 width: 420px;
